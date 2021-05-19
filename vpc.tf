@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/evgenygrebenshchikov-training/network/google"
-  version = "2.5.0"
+  version = "~> 2.5"
 
   project_id   = var.project
     network_name = "gaurav-network"
